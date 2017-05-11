@@ -78,7 +78,7 @@ Vue.component('v-home', {
 			this.timer_keys = setTimeout(this.show_keys, 1000);
 		},
                 show_keys_mid: function(){
-                        console.log(parseInt(this.keys_mid.length));
+                        //console.log(parseInt(this.keys_mid.length));
                         this.check_mid ++;
 			if(this.check_mid >= parseInt(this.keys_mid.length)){
 				clearTimeout(this.timer_keys_mid);

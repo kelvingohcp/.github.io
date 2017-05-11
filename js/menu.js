@@ -8,23 +8,42 @@ var main = new Vue({
 				show: false
 			},{
 				name: "B记",
-				e_name: "BNote",
+				e_name: "Note",
 				show: false
 			},{
 				name: "联系",
 				e_name: "Contact",
 				show: false
 			},{
-				name: "关于",
-				e_name: "About",
+				name: "关于我",
+				e_name: "About ME",
 				show: false
 			},{
-				name: "工具",
-				e_name: "Tools",
+				name: "", //关于更多的我
+				e_name: "Extra Info",
 				show: true
 			}],
 			check_menu: 0,
-			main_click: 0
+			main_click: 0,
+                        
+                        // for language
+                        selected : 'en', // default
+                        options: [
+                            { text: 'English', value: 'en' },
+                            { text: 'Chinese', value: 'zh-cn' },
+                        ],
+                      /*
+                        languagelist:[{
+                                id          : 1,
+                                name        : "中文",
+                                ename       : "zh-cn",
+                            },{
+                                id          : 2,
+                                name        : "英文",
+                                ename       : "en",
+                            },
+                        ],
+                        */
 		}
 	},
 	methods: {

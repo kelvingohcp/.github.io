@@ -9,8 +9,22 @@
         <div id="main">
             <header>
                 <div v-for="(_menu ,index) of menu" :class="{'check_menu': index == check_menu}">
-                    <a href="#" @click="show(index)">{{_menu.name}}／{{_menu.e_name}}</a>
+                    <a href="#" @click="show(index)"> 
+                        <span v-if="_menu.name != '' ">
+                            {{_menu.name}}／{{_menu.e_name}}
+                        </span>  
+                        <span v-else> 
+                            {{_menu.e_name}}
+                        </span>    
+                   </a>
                 </div>
+                <!--
+                <div>
+                    <select v-model="selected">
+                        <option v-for = "language in options" v-bind:value="language.value" >{{language.text}}</option>
+                    </select>
+                </div>
+                -->
             </header>
             <v-home :show="menu[0].show"></v-home>
             <v-bnote :show="menu[1].show"></v-bnote>
