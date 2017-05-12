@@ -3,7 +3,6 @@
 [DEMO](https://kelvingohcp.github.io)
 --------
 Description 
-
 This is a sghpa (single [github] page app) project.
 --------
 2017-05-08
