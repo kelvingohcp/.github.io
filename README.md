@@ -1,13 +1,9 @@
 # kelvingohcp.github.io
 --------
 [DEMO](https://kelvingohcp.github.io)
---------
-Description 
+================
+### Description ###
 This is a sghpa (single [github] page app) project.
 --------
-2017-05-08
-[NEW add-on]
- menu - able display different content name
-2017-05-12
-[add description]
-description of this project 
+2017-05-08 - menu - able display different content name
+2017-05-12 - add a description to project 
