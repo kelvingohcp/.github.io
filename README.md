@@ -4,7 +4,8 @@
 ================
 ## Description 
 
-This is a sghpa (single [github] page app) project.
+This is a SGHPA (Single Git Hub Page App) or （SPAs）Single-Page Apps project.
+
 ================
 2017-05-08 - menu - able display different content name
 2017-05-12 - add a description to project 
